@@ -1,0 +1,80 @@
+.heading {
+    border-bottom: 0px solid #ddd;
+}
+
+.twitter-hover {
+    background-image: url('https://lut.im/SRoUJUn7V4/cORSlFIVBlR7M8Zv.png');
+}
+
+.facebook-hover {
+    background-image: url('https://lut.im/9LlTfOBMjB/ccPwdiudyoF3x1wE.png');
+}
+
+.google-hover {
+    background-image: url('https://lut.im/qGelLnYHZ3/dL1Hrnzyl7cMz14e.png');
+}
+
+.linkedin-hover {
+    background-image: url('https://lut.im/JNIybEyJDx/6gAE6YPt35e7qMAB.png');
+}
+
+.pinterest-hover {
+    background-image: url('https://lut.im/fU1GnJ1cOw/d0iRmklZgk2l6o5W.png');
+}
+
+.instagram-hover {
+    background-image: url('https://lut.im/0LARg4VaCM/bWRJ8RbjK0r14RdO.png');
+}
+
+.social-slide {
+    height: 48px;
+    width: 48px;
+    margin: 10px;
+    float: left;
+    -webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+    -o-transition: all ease 0.4s;
+    -ms-transition: all ease 0.4s;
+    transition: all ease 0.4s;
+}
+
+.social-slide:hover {
+    background-position: 0px -48px;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 1);
+}
+
+.container {
+    border-bottom: 1px solid;
+    padding: 20px;
+}
+
+.btn button {
+    margin: 15px;
+    color: darkolivegreen;
+}
+
+.img-responsive {
+    margin-bottom: 20px;
+}
+
+h2 {
+    padding-bottom: 20px;
+}
+
+link {
+    color: #006666;
+}
+
+h1 {
+    padding-bottom: 30px;
+}
+
+h3 {
+    padding-bottom: 35px;
+}
+.artmoneycontainer {
+    margin-bottom: 20px; 
+}
+.artmoneybillede {
+    max-height= 200px;
+}

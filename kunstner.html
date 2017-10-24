@@ -1,0 +1,306 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title>Sortering/Filtrering</title>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      
+      
+      
+    
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Artmoney</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="buy.html">Buy Artmoney</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">Sell Artmoney</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="kunstnere.html">Artists</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#">Pay with Artmoney</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="blog-test.html">Blog</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#about.html">About</a>
+      </li>
+        
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>   
+      
+      
+      
+      <!-- indhold -->
+      
+      <div class="container-fluid">
+      <div class="row">
+      <div class="col-md-1"></div>
+      
+          <!-- indhold her -->    
+      <div class="col-md-10" style="background-color: lightgray;">
+      <div class="container">
+      <div class="row kunstner">
+      <!-- sortering -->
+     
+           
+      
+      </div>
+          <br>
+          <br>
+          <div class="row billeder">
+          </div></div>    
+          
+          
+          
+      </div>
+          
+          
+      <div class="col-md-1"></div>
+          
+          
+          
+    </div></div>
+      
+    
+ 
+      
+      
+        <!-- footer -->
+    <div class="container-fluid">
+    <div class="row">
+    <div class="col-md-1"></div>
+    
+    <div class="col-md-10">
+    <div class="row" style="border-top: 1px solid black; padding-top: 20px;">
+    <div class="col-md-2">
+    <p>Kontakt info:</p>
+    <p>Artmoney</p>
+    <p>Navn</p>
+    <p>tlf:12345678</p>
+    <p>kbhvej12</p>
+    <p>VAC/CVAT</p>
+    </div>
+    <div class="col-md-2">
+    <p>Information:</p>
+    <p>F.A.Q</p>
+    <p>Kontakt</p>
+    <p>Presse</p>
+    <p>Administration</p>
+    </div>
+    <div class="col-md-2">
+    <p>Betingelser:</p>
+    <p>overskrift</p>
+    <p>tekst</p>
+    <p>link til terms</p>
+    <p>link til privacy</p>
+    </div>
+    <div class="col-md-2">
+    <p>Sikkerhed og betaling:</p>
+    <p>paypal ikon</p>
+    <p>Dankort ikon</p>
+    <p>visa kort ikon</p>
+    <p>mastercard ikon</p>
+    </div>
+    <div class="col-md-2">
+    <p>Newsletter:</p>
+    <form class="form1" action="getbesked.php">
+    <label for="navn">Name</label>
+    <input class="control-label" type="text" placeholder="John Smith" name="navn" required><br>
+    <label for="email">E-mail</label>
+    <input class="control-label" type="email" placeholder="email" name="email" required><br>
+    <input class="btn btn-success" type="submit" placeholder="Subscribe" name="submit" required>  <button type="submit" class="btn btn-success">Unsubscribe</button>
+</form>
+    </div>
+    </div></div>
+    
+    <div class="col-md-2"></div>
+    </div></div>  
+      
+      
+      
+      
+   
+      
+      
+      
+      
+       <!-- ikke mere content efter her -->
+          <!-- TEMPLATE TEMPLATE TEMPLATE -->
+      <template class="temp-kunstner">
+      <div class="container-fluid" style="background-color: white;">
+      <div class="row">
+      <!-- tekstfeltet -->
+      <div class="col-md-4">
+      <h4 class="kunstnertitel">Wood art 2</h4>
+      <p class="kunstnerlocation">Artist: hanne</p>
+      <p class="kunsterlink"></p>
+      <p class="kunstnertelefon"></p>
+      <p class="kunstneradresse"></p>
+      
+      <!-- billedfelt -->
+      <div class="col-md-8">
+      <img class="img-fluid artmoneybillede" src=""></div>
+          
+      <br>    
+      </div></div> 
+     </template>     
+          
+          <!-- TEMPLATE SLUT TEMPLATE SLUT TEMPLATE SLUT -->
+      <template class="temp-artmoney">
+      <div class="mix artmoneycontainer container-fluid styleall materialall countryall dimensionsall" style="background-color: white;">
+      <div class="row">
+      <!-- tekstfeltet -->
+      <div class="col-md-4">
+      <h4 class="artmoneytitel">Wood art 2</h4>
+      <p class="artmoneykunstner">Artist: hanne</p>
+      <p class="artmoneybeskrivelse">This is a painted piece of wood</p>
+      <a href="#" class=" singleartmoney btn btn-success">BUY</a>
+      <button type="button" class="btn btn-success">ADD</button></div>
+      <!-- billedfelt -->
+      <div class="col-md-8">
+      <img class="img-fluid artmoneybillede" src=""></div>
+      </div></div> 
+      </template>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="mixitup.min.js"></script>
+    <script src="mixitup-multifilter.min.js"></script>
+    
+      
+    <script>
+        
+        
+        let url = new URL(window.location.href);
+        let searchParams = new URLSearchParams(url.search);
+        let id = searchParams.get("id");
+        let apiURL = "http://michiller.dk/artmoneywp/wp-json/wp/v2/users/" + id;
+            let posts; //tom var
+        
+        getPosts();
+            async function getPosts() {
+                let result = await fetch(apiURL);
+                post = await result.json();
+                console.log(post);
+                showPosts();
+            }
+        
+        //fordel de forskellige typer content til templaten
+        function showPosts() {
+            let template = document.querySelector(".temp-kunstner");
+            let display = document.querySelector(".kunstner");
+            
+                let clone = template.content.cloneNode(true);
+                
+                
+                //clone.querySelector(".artmoneybillede").src = post.acf.artmoneybillede.url;
+                
+                clone.querySelector(".kunstnertitel").textContent = post.name;
+            clone.querySelector(".kunstnerlocation").textContent = post.acf.location;
+            //clone.querySelector(".kunstnerlink").textContent = post.acf.link;
+            clone.querySelector(".kunstnertelefon").textContent = post.acf.telefon;
+            clone.querySelector(".kunstneradresse").textContent = post.acf.adresse;
+               
+                
+                display.appendChild(clone);
+            
+            
+        }
+        
+        let apikunstnerensartmoneyURL = "http://michiller.dk/artmoneywp/wp-json/wp/v2/artmoney/?author=" + id;
+        let kunstnerensartmoney = [];
+        
+        getKunstnerensartmoney();
+        async function getKunstnerensartmoney() {
+            if (kunstnerensartmoney.length < 1) {
+                let result = await fetch(apikunstnerensartmoneyURL, {
+                    method: 'get'
+                });
+                kunstnerensartmoney = await result.json();
+                showKunstnerensartmoney();
+            }
+        }
+        
+        function showKunstnerensartmoney(){
+            let templatekunstnerensartmoney = document.querySelector(".temp-artmoney");
+            let displaykunstnerensartmoney = document.querySelector(".billeder");
+            kunstnerensartmoney.forEach(function(kunstnerensartmoney) {
+                let clone = templatekunstnerensartmoney.content.cloneNode(true);
+                
+                clone.querySelector(".artmoneybillede").src = kunstnerensartmoney.acf.artmoneybillede.url;
+                clone.querySelector(".singleartmoney").href = "artmoney.html?id=" + kunstnerensartmoney.id;
+                // fix så det virker clone.querySelector(".singleartmoney").href = "artmoney.html?id=" + post.id;
+                clone.querySelector(".artmoneytitel").textContent = kunstnerensartmoney.title.rendered;
+                clone.querySelector(".artmoneykunstner").textContent = kunstnerensartmoney.acf.kunstner.display_name;
+                var textsummary = kunstnerensartmoney.content.rendered;
+                if(textsummary.length > 50) {textsummary = textsummary.substring(0,50)};
+                clone.querySelector(".artmoneybeskrivelse").innerHTML = textsummary + '...';
+                
+                displaykunstnerensartmoney.appendChild(clone);
+            });
+        }
+
+        </script>  
+      
+    
+      
+      <script>
+    document.querySelector("form").addEventListener("submit",dosomething);
+    function dosomething(e){
+        alert(document.querySelector("textarea").value);
+        e.preventDefault();
+    }
+</script>
+      
+  </body>
+</html>
